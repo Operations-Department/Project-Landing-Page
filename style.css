@@ -1,3 +1,79 @@
+body {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+    padding: 0;
+    margin: 0;
+}
+
 div {
     border: solid red 2px;
+}
+
+.header,
+.top,
+.footer {
+    background-color: #1f2937;
+    color: white
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.logo > h4 {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.links > a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.top > h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.call-to-action,
+button {
+    background-color: #3882f6;
+}
+
+.some-information > h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    
+}
+
+.quote > h1 {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.call-to-action {
+    margin: 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
