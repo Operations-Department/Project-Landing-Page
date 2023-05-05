@@ -1,5 +1,5 @@
 body {
-    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -20,6 +20,9 @@ div {
     justify-content: space-around;
     align-items: center;
     padding: 12px;
+}
+.call-to-action > p {
+    margin: 0;
 }
 
 .links {
@@ -45,11 +48,6 @@ div {
     color: #f9faf8;
 }
 
-.call-to-action,
-button {
-    background-color: #3882f6;
-}
-
 .some-information > h2 {
     font-size: 36px;
     font-weight: extra-bold;
@@ -59,17 +57,57 @@ button {
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
-    
+    padding: 150px 315px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote > h1 {
     font-style: italic;
     font-weight: lighter;
     font-size: 36px;
+    margin: 0;
+}
+
+.quote h1, .quote h3 {
+    margin: 0;
+}
+
+.quote h3 {
+    align-self: flex-end;
+    padding-right: 50px;
+}
+
+.call-to-action,
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+}
+
+.call-to-action h4, .call-to-action p {
+    margin: 0;
 }
 
 .call-to-action {
-    margin: 
+    display: flex;
+    flex-direction: column;
+    margin: 75px;
+    padding: 50px;
+}
+
+button {
+    font-weight: bold;
+    padding: 5px 20px;
+    width: 100px;
+}
+
+.top-button {
+    border: none;
+}
+
+.bottom-button {
+    border: 1px solid white;
 }
 
 .footer {
