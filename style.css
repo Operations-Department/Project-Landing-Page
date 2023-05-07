@@ -4,8 +4,16 @@ body {
     margin: 0;
 }
 
-div {
+di {
     border: solid red 2px;
+}
+
+button {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 20px;
+    width: 120px;
+    height: 35px;
 }
 
 .header,
@@ -17,10 +25,9 @@ div {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 12px;
-    gap: 140px;
+    padding: 12px 300px;
 }
 
 .logo h4 {
@@ -42,16 +49,6 @@ div {
 
 .container {
     display: flex;
-    height: 400px;
-}
-
-.top {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 50%;
-    justify-content: center;
-    padding: 100px;
 }
 
 .top h1, .top p {
@@ -64,14 +61,42 @@ div {
     color: #f9faf8;
 }
 
+.top {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top-textbox {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 250px;
+    width: 550px;
+    box-sizing: border-box;
+}
+
+.top-button {
+    border: none;
+}
+
+.placeholder-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 400px;
+}
+
 .placeholder-image {
-    width: 50%;
+    height: 250px;
+    width: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
-    margin: 75px 200px;
-    margin-left: auto;
+    background-color: rgb(124, 124, 124);
+    box-sizing: border-box;
 }
 
 .some-information h2 {
@@ -173,18 +198,6 @@ button {
 .button-container {
     display: flex;
     align-items: center;
-}
-
-button {
-    font-size: 14px;
-    font-weight: bold;
-    padding: 5px 20px;
-    width: 120px;
-    height: 35px;
-}
-
-.top-button {
-    border: none;
 }
 
 .bottom-button {
